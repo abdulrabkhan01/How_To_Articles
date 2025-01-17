@@ -1,0 +1,9 @@
+# How to use 2FA token in IntelliJ Idea
+
+a- Generate the personal access token
+    1)  Settings > Developer settings > Personal access tokens > Fine-grained personal access tokens.
+    2) Generate new token
+    3) Name the token
+    4) Copy 
+    5) Open IntelliJ and go to File > Settings > Version Control > GitHub. & Login to account with token
+     
