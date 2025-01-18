@@ -15,3 +15,8 @@ spring.sql.init.schema-locations=classpath:/h2-schema.sql  # Path to your H2 sch
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
 c- Create the file under resources/h2-schema.sql with the seed data
+d- Start the spring boot App
+e- Open the H2 console in your browser: Go to http://localhost:8080/h2-console (replace 8080 with your application's port if necessary)
+f- JDBC URL: jdbc:h2:mem:testdb (if you are using in-memory database) or jdbc:h2:file:./your-db-file (if you are using file based database)
+User Name: sa (default)
+Password: Leave blank by default, unless you have configured a password.
